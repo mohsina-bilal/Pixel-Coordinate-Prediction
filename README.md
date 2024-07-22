@@ -23,11 +23,11 @@ The dataset consists of 50x50 pixel grayscale images where a single pixel has a 
 
 ### Model Architecture
 The model is a simple Convolutional Neural Network (CNN) with the following layers:
-Conv2D
-MaxPooling2D
-Flatten
-Dense
-Dropout
+- Conv2D
+- MaxPooling2D
+- Flatten
+- Dense
+- Dropout
 
 The model architecture is defined in the PixelPredictorModel class.
 
