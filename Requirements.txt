@@ -1,1 +1,6 @@
-
+numpy==1.21.6
+Pillow==9.2.0
+scikit-learn==1.0.2
+tensorflow==2.9.1
+matplotlib==3.5.2
+google-colab==1.0.0
