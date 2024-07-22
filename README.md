@@ -16,16 +16,7 @@ To install the required dependencies, use the following command:
 pip install -r requirements.txt
 
 ### Project Structure
-├── dataset
-│   ├── train
-│   │   ├── images
-│   │   └── labels
-│   └── test
-│       ├── images
-│       └── labels
-├── requirements.txt
-├── README.md
-└── PixelCoordinatePrediction.ipynb
+![image](https://github.com/user-attachments/assets/a5fe0378-9ed2-4ded-b066-b28808b6108f)
 
 ### Dataset Generation
 The dataset consists of 50x50 pixel grayscale images where a single pixel has a value of 255 and all other pixels are 0. The pixel with a value of 255 is randomly placed in the image.
