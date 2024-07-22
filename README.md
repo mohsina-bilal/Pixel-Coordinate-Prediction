@@ -17,14 +17,23 @@ pip install -r requirements.txt
 
 ### Project Structure
 ├── dataset
+
 │   ├── train
+
 │   │   ├── images
+
 │   │   └── labels
+
 │   └── test
+
 │       ├── images
+
 │       └── labels
+
 ├── requirements.txt
+
 ├── README.md
+
 └── PixelCoordinatePrediction.ipynb
 
 ### Dataset Generation
@@ -44,8 +53,9 @@ The model architecture is defined in the PixelPredictorModel class.
 The model is trained using the generated dataset. The training and validation loss are plotted to evaluate the model's performance.
 
 ### Results
-The predicted and ground truth coordinates are displayed, and the model's performance is visualized through various plots.
+The predicted and ground truth coordinates are displayed, and the model's performance is visualized through a training plot.
 ![image](https://github.com/user-attachments/assets/6e51647e-07db-4cc9-b10f-75a3c3e9e86f)
+![image](https://github.com/user-attachments/assets/3524be3d-6854-4a95-a4c5-5f8c4d71c5bf)
 
 ### Dependencies
 The project dependencies are listed in the requirements.txt file
