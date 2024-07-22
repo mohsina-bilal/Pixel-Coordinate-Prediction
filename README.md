@@ -17,23 +17,14 @@ pip install -r requirements.txt
 
 ### Project Structure
 ├── dataset
-
 │   ├── train
-
 │   │   ├── images
-
 │   │   └── labels
-
 │   └── test
-
 │       ├── images
-
 │       └── labels
-
 ├── requirements.txt
-
 ├── README.md
-
 └── PixelCoordinatePrediction.ipynb
 
 ### Dataset Generation
